@@ -1,0 +1,29 @@
+.radio {
+  width: 1142px;
+  margin: 0 auto;
+  background: #c7caca;
+  padding-top: 6px;
+  overflow: hidden;
+
+  &__border {
+    height: 37px;
+    background: linear-gradient(0deg, #bfbfbb 0%, #9b9b97 100%);
+    box-shadow: 0 -3px 4px -1px #777875;
+  }
+}
+
+.station {
+  &__name {
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 18px;
+    color: rgb(0,0,0);
+    font-family: $light-font;
+  }
+
+  &__location {
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(87,87,87);
+  }
+}

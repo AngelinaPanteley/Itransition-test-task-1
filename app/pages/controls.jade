@@ -1,0 +1,14 @@
+.controls
+  .switch
+    .switch__btn
+      input.switch__btn__radio#turnOn(type='radio', name='switch', checked)
+      label.switch__btn__label--on(for='turnOn') on
+    .switch__btn
+      input.switch__btn__radio#turnOff(type='radio', name='switch')
+      label.switch__btn__label(for='turnOff') off
+
+  .move
+    button.move__btn--right(id='moveRight')
+      span.move__arrow--top
+    button.move__btn--left(id='moveLeft')
+      span.move__arrow--bottom
